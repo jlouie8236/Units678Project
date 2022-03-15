@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+//runner
 public class Runner {
     public static void main(String[] args)
     {
@@ -14,7 +14,8 @@ public class Runner {
         a way to check if the right letters are in the right place
         a way to randomly choose a letter from list
         the list of words guessed?
-
+        need a object to put in a list (letter?)
+        or a list of letters in letter grid
          */
 
         String testWord = "apple";

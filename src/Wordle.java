@@ -1,4 +1,6 @@
-public class Wordle {
+
+//main logic
+    public class Wordle {
     public Wordle(){}
 
 
