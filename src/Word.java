@@ -1,3 +1,6 @@
-public class Word {
+public class Word
+{
+    private String[] wordSplit;
+
 
 }
