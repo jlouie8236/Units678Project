@@ -1,6 +1,6 @@
 public class LetterGrid {
-    String[][] wordGrid;
 
+    private String[][] wordGrid;
     //colors
     public static final String BLACK_BOLD = "\033[1;30m";  // BLACK
     public static final String RED_BOLD = "\033[1;31m";    // RED
