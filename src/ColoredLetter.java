@@ -13,8 +13,8 @@ public class ColoredLetter
     /** The color white */
     private static final String WHITE_BRIGHT = "\033[0;97m";
 
-    /** The color red */
-    private static final String RED_BRIGHT = "\033[0;91m";
+    /** The color dark grey */
+    private static final String GREY_BRIGHT = "\033[0;90m";
 
     /** The color yellow */
     private static final String YELLOW_BRIGHT = "\033[0;93m";
@@ -68,7 +68,7 @@ public class ColoredLetter
     {
         if(inWord == false && correctPlace == false)
         {
-            color = RED_BRIGHT;
+            color = GREY_BRIGHT;
         }
         else if (inWord == true && correctPlace == false)
         {

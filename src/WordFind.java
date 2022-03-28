@@ -59,12 +59,14 @@ public class WordFind
 
     }
 
-    /** Starts the game. */
+    /** Starts the game */
     public void startGame()
     {
         Scanner scan = new Scanner(System.in);
         int guessNum = 0;
         introText();
+        printGrid();
+        // System.out.println(correctWordFull);
         while (!end)
         {
             System.out.println(RESET + "What's your guess?");
@@ -90,7 +92,7 @@ public class WordFind
             }
             else
             {
-                System.out.println("That word isn't in our dictionary. Try again");
+                System.out.println("That word isn't in our dictionary. Try again. ");
             }
         }
     }
@@ -115,7 +117,7 @@ public class WordFind
         System.out.println("Hi! Welcome to the WordFind Game!");
         System.out.println("You have 6 tries to guess the word");
         System.out.println("When you guess the word, colors will give you hints: ");
-        System.out.println("If the letter is red, the letter is not in the word");
+        System.out.println("If the letter is dark grey, the letter is not in the word");
         System.out.println("If the letter is yellow, the letter is in the word, but not in the right place");
         System.out.println("If the letter is blue, the letter is in the right place");
         System.out.println("Let's play!");
